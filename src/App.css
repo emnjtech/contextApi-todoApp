@@ -1,0 +1,106 @@
+.container {
+width:50%;
+height:500px;
+color:white;
+font-family: 'Courier New', Courier, monospace;
+border-radius: 30px;
+margin-top: 100px;
+margin-left: auto;
+margin-right: auto;
+padding-left: 40px;
+padding-right: 40px;
+padding-top: 30px;
+background: rgb(3,1,41);
+background: -moz-linear-gradient(90deg, rgba(3,1,41,1) 0%, rgba(2,16,106,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(3,1,41,1) 0%, rgba(2,16,106,1) 100%);
+background: linear-gradient(90deg, rgba(3,1,41,1) 0%, rgba(2,16,106,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#030129",endColorstr="#02106a",GradientType=1);
+
+
+}
+
+.textwrap{
+width: 90%;
+height:inherit;
+margin-left: auto;
+margin-right: auto;
+align-items: center;
+}
+
+.textwrap input
+{
+  padding:20px 12px;
+  width:100%;
+  font-size: 20px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  text-align: center;
+}
+button:hover {
+  background-color: aliceblue;
+  transition: 0.4s;
+  color:rgb(110, 2, 2)
+}
+
+
+.button {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+  0 6px 20px 0 rgba(0,s 0, 0, 0.19);
+  background-color: #830606;
+  border: none;
+  color: white;
+  padding: 20px 20px;
+  border-radius: 30px;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top:10px;
+}
+
+.TodoItems {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+}
+
+.TodoItems__items{
+  width: 60%;
+  float:left;
+  margin-top: 20px;
+  
+}
+
+.TodoItems__buttons {
+  margin-top: 20px;
+  display: flex;
+ 
+}
+.TodoItems__buttons button {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+  0 6px 20px 0 rgba(0, s 0, 0, 0.19);
+  background-color: #830606;
+  border: none;
+  padding: 20px 20px;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  font-weight: bold;
+  margin-top:10px;
+  margin-left:  10px;
+}
+
+.TodoItems__buttons button:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, s 0, 0, 0.19);
+  background-color: #aea9a9;
+  transition: 0.5s;
+  color: #830606;
+  
+}
